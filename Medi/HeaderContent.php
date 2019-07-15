@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Medi Advisor</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -20,15 +20,17 @@
   <li class="nav-item">
       <a class="nav-link" href="Home.php">Home</a>
     </li>
-  <li class="nav-item">
-      <a class="nav-link" href="Content.php">Disease</a>
-    </li>
-  <li class="nav-item">
-      <a class="nav-link" href="Ayurvedic.php">Ayurvedic</a>
-    </li>
+  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Treatments
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="Western.php">Western</a>
+        <a class="dropdown-item" href="Ayurvedic.php">Ayurvedic</a>
+      </div>
   </ul>
   <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-outline-success my-2 my-sm-0" onclick="myFun()" type="submit">Add Treatments</button>
+      <button class="btn btn-outline-danger my-2 my-sm-0" onclick="myFun()" type="submit">Add Article</button>
     </form>
 </nav>
 <br>

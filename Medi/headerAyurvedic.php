@@ -24,7 +24,7 @@
       <a class="nav-link" href="Content.php">Disease</a>
     </li>
   <li class="nav-item">
-      <a class="nav-link" href="Ayurvedic.php">Ayurvedic</a>
+      <a class="nav-link" href="Western.php">Western</a>
     </li>
   </ul>
   <form class="form-inline my-2 my-lg-0">

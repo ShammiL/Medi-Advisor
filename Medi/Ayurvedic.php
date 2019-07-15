@@ -11,9 +11,8 @@
  
   <style>
             body {font-family: Arial, Helvetica, sans-serif;
-            background-image: url(d1.jpg);
+            background-image: url("Ayurvedic1.jpg");
             background-repeat: repeat-x;
-            background-attachment: scroll;
             text-align:justify;box-sizing: border-box
              }
             
@@ -43,17 +42,17 @@
     ?> 
 <body>
 <?php 
-          require 'HeaderContent.php';
+          require 'HeaderAyurvedic.php';
       ?>
-<br><h1><b>Dengue</b></h1><br>
+<br><h1><b>Dengue Ayurvedic Treatments</b></h1><br>
 <div class="container">
 <div class="row">
   <div class="col-sm-6">
     <div class="card text-center">
-    <div class="card border-warning mb-3">
+    <div class="card border-success mb-3">
       <div class="card-body">
         <h4 class="card-title"><b>How to prevent Dengue</b></h4>
-        <h6 class="card-subtitle"><b><i>-By Yoshani Ranaweera</i></b></h6><br>
+        <h6 class="card-subtitle"><b><i>-By Dr.Yoshani Ranaweera</i></b></h6><br>
         <p class="card-text">Dengue (pronounced DENgee) fever is a painful, debilitating mosquito-borne disease caused by any one of four closely related dengue viruses. These viruses are related to the viruses that cause West Nile infection and yellow fever.</p>
 
 <div id="collapse1" style="display:none">
@@ -84,10 +83,10 @@ $(document).ready(function () {
   </div>
   <div class="col-sm-6">
     <div class="card text-center">
-    <div class="card border-warning mb-3">
+    <div class="card border-success mb-3">
       <div class="card-body">
         <h4 class="card-title"><b>My Experience on Dengue</b></h4>
-        <h6 class="card-subtitle"><b><i>-By Sachini Dissanayaka</i></b></h6><br>
+        <h6 class="card-subtitle"><b><i>-By Dr.Sachini Dissanayaka</i></b></h6><br>
         <p class="card-text">Dengue (pronounced DENgee) fever is a painful, debilitating mosquito-borne disease caused by any one of four closely related dengue viruses. These viruses are related to the viruses that cause West Nile infection and yellow fever.</p>
 
 <div id="collapse2" style="display:none">
@@ -119,10 +118,10 @@ $(document2).ready(function () {
 <div class="row">
   <div class="col-sm-6">
     <div class="card text-center">
-    <div class="card border-warning mb-3">
+    <div class="card border-success mb-3">
       <div class="card-body">
         <h4 class="card-title"><b>Home remedies for Dengue prevention</b></h4>
-        <h6 class="card-subtitle"><b><i>-By Shammi Kolonne</i></b></h6><br>
+        <h6 class="card-subtitle"><b><i>-By Dr.Shammi Kolonne</i></b></h6><br>
         <p class="card-text">Dengue (pronounced DENgee) fever is a painful, debilitating mosquito-borne disease caused by any one of four closely related dengue viruses. These viruses are related to the viruses that cause West Nile infection and yellow fever.</p>
 
 <div id="collapse3" style="display:none">
@@ -153,10 +152,10 @@ $(document3).ready(function () {
   </div>
   <div class="col-sm-6">
     <div class="card text-center">
-    <div class="card border-warning mb-3">
+    <div class="card border-success mb-3">
       <div class="card-body">
         <h4 class="card-title"><b>Let's prevent Dengue</b></h4>
-        <h6 class="card-subtitle"><b><i>-By Sasindu Kolonne</i></b></h6><br>
+        <h6 class="card-subtitle"><b><i>-By Dr.Sasindu Kolonne</i></b></h6><br>
         <p class="card-text">Dengue (pronounced DENgee) fever is a painful, debilitating mosquito-borne disease caused by any one of four closely related dengue viruses. These viruses are related to the viruses that cause West Nile infection and yellow fever.</p>
 
 <div id="collapse4" style="display:none">
